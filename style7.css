@@ -1,0 +1,241 @@
+header,
+section {
+  overflow-x: hidden;
+}
+
+
+body {
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    background: #7f7fd5;
+    background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+
+.navbar {
+     background-color: transparent;
+     position: relative;
+     z-index: 4;
+ }
+ 
+ .nav-link {
+     font-size: 14px;
+ }
+
+ main {
+     position: absolute;
+     top: 0%;
+     z-index: 0;
+ }
+
+.site-wrapper {
+    height: 900px; 
+}
+
+@media only screen and (max-device-width:360px) {
+    .site-wrapper {
+        height: 200px;
+    }
+}
+
+h1 {
+    color:rgba(0, 0, 0, 0.938)
+}
+
+p {
+    color:rgba(0, 0, 0, 0.712)
+}
+
+.myImg {
+    height: 30px;
+}
+
+.myImg1 {
+  height: 15px;
+  margin-top: 3px;
+  margin-right: 4px;
+}
+
+.myImg2 {
+  height: 23px;
+  margin-top: -5px;
+  margin-right: 4px;
+  }
+
+/*body*/
+
+.btn{
+	font-family: 'Kanit',sans-serif;
+}
+
+.btn-success{
+	background-color: #c0aa83;
+	border-color: #c0aa83;
+	color: #fff;
+}
+
+.btn-success:hover{
+	background-color: #242424;
+	border-color: #242424;
+	color: #fff;
+}
+
+.masthead2{
+	background-image: url('Spider-Man.png');
+	background-position: 50% -26px;
+	background-color:#242424;
+
+}
+
+a.social-icon{
+	color:#242424;
+}
+
+a.social-icon:hover{
+	color:#c0aa83;
+}
+
+.social-icon{
+	background-color: #ECE4C3;
+	width: 80px;
+	height: 80px;
+	padding-left :10px;
+	margin-left: 10px;
+}
+
+.social-icon a{
+	background-color: #B98C45;
+	width: 50px;
+	height: 50px;
+	padding: 10px 16px;
+	margin-right: 6px;
+	position: relative;
+	display: block;
+}
+
+.social-icon a:hover{
+	color:#242424;
+
+}
+
+.page-section{
+	padding: 8rem 0;
+}
+
+.section-header {
+    padding-right: 910px;
+}
+
+.main-menu{
+	color: #c0aa83;
+	font-family: 'Kanit',sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+    padding-right: 800px;
+}
+
+.a1:link{
+	text-decoration: none;
+	color: #c0aa83;
+    background-color: transparent;
+}
+
+.a1:visited {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+/*product styling*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+}
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.card__body1 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: 143px;
+  }
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+  background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+
+/* start: footer styles */
+footer {
+    background-color: #252525;
+    padding: 25px 0 20px;
+  }
+  
+  footer small {
+    color: #ddd;
+    font-size: 0.9em;
+  }
+  
+  /* end: footer styles */
+  
+  
+  /* start: media queries */
+  
+  footer .flex {
+    flex-wrap: wrap-reverse;
+  }
+  
+  footer small {
+    flex-basis: 100%;
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+    padding-left: 570px;
+  }

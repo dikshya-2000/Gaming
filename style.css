@@ -1,0 +1,173 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.938);  
+ }
+  
+ .navbar {
+     background-color: transparent;
+     position: relative;
+     z-index: 4;
+ }
+ 
+ .nav-link {
+     font-size: 14px;
+ }
+
+ main {
+     position: absolute;
+     top: 0%;
+     z-index: 0;
+ }
+
+.carousel-control-prev, .carousel-control-next {
+    width: 8%
+}
+
+.site-wrapper {
+    height: 900px; 
+}
+.card, .list-group-item {
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.parallax {
+    background-image: url('Assassins Creed Wallpaper.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+@media only screen and (max-device-width:360px) {
+    .site-wrapper {
+        height: 200px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+}
+
+h1 {
+    color:rgba(0, 0, 0, 0.938)
+}
+
+p {
+    color:rgba(0, 0, 0, 0.712)
+}
+
+.myImg {
+    height: 30px;
+}
+
+.myImg1 {
+  height: 15px;
+  margin-top: -4px;
+  margin-right: 4px;
+}
+
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.a1:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .a1:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .a2:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .a2:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+/* start: footer styles */
+footer {
+  background-color: #252525;
+  padding: 25px 0 20px;
+}
+
+footer small {
+  color: #ddd;
+  font-size: 0.9em;
+}
+
+/* end: footer styles */
+
+
+/* start: media queries */
+
+footer .flex {
+  flex-wrap: wrap-reverse;
+}
+
+footer small {
+  flex-basis: 100%;
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5;
+  padding-left: 570px;
+}
+
+/* end: media queries */
+
+.loader-container{
+  position: fixed;
+  top:0; left:0;
+  z-index: 10000;
+  background:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+  width:100%;
+}
+
+.loader-container.fade-out{
+  top:-120%;
+}
+
+.btn {
+  background-color: #252525;
+  border: none;
+  color: white;
+  padding: 7px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: -1px;
+  margin-top: 12px;
+}
+
+.btn:hover {
+  background-color: rgb(65, 63, 63);
+  color: white;
+}

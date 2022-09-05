@@ -1,0 +1,139 @@
+/* navbar */
+
+.navbar {
+    background-color: transparent;
+    position: relative;
+    z-index: 4;
+  }
+  
+  .nav-link {
+    font-size: 14px;
+  }
+  
+  .myImg {
+   height: 30px;
+  }
+
+  .myImg1 {
+    height: 15px;
+    margin-top: -4px;
+    margin-right: 4px;
+  }
+
+  body{
+    font-family: tahoma;
+    overflow-x: hidden;
+    background-image: url('a3.jpg');
+    overflow-y: hidden;
+  }
+
+  .hi-slide {
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 115px auto 0;
+  }
+  
+  .hi-slide .hi-next, .hi-slide .hi-prev {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(68, 67, 67);
+    color: black;
+    transition: all 0.7s;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .hi-slide .hi-next:hover, .hi-slide .hi-prev:hover {
+    opacity: l;
+    background-color: grey;
+  }
+
+  .hi-slide .hi-prev {
+    left: -70px;
+  }
+
+  .hi-slide .hi-prev::before {
+    content: '<';
+  }
+
+  .hi-slide .hi-next {
+    right: -70px;
+  }
+
+  .hi-slide .hi-next::before {
+    content: '>';
+  }
+
+  .hi-slide > ul {
+    list-style:none;
+    position:relative;
+    width:754px;
+    height:292px;
+    margin:0;
+    padding:0;
+  }
+
+
+  .hi-slide > ul > li {
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 147px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 3px solid white;
+    background-color: #333;
+    cursor: pointer;
+  }
+
+  .hi-slide > ul > li > img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+
+  /* start: footer styles */
+footer {
+  background-color: #252525;
+  padding: 25px 0 20px;
+}
+
+footer small {
+  color: #ddd;
+  font-size: 0.9em;
+}
+
+.foot {
+  padding-top: 200px;
+}
+
+/* end: footer styles */
+
+
+/* start: media queries */
+
+footer .flex {
+  flex-wrap: wrap-reverse;
+}
+
+footer small {
+  flex-basis: 100%;
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5;
+  padding-left: 570px;
+}
+
+/* end: media queries */
